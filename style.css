@@ -1,0 +1,144 @@
+*{
+     font-family: Londrina Solid, sans-serif;
+     background-color: beige;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 40px;
+  }
+
+.headerpart {
+    display: flex;
+    justify-content: space-between;
+    > ul {
+        display: flex;
+        gap: 2rem;
+        transform: translateX(-50px);
+
+     > li {
+            list-style: none;
+            text-transform: uppercase;
+            > a {
+                text-decoration: none;
+                color: #000;
+            }
+           }
+    }
+}
+
+.my-job{
+    text-align: center;
+    justify-content: center;
+    text-decoration: wavy;
+    margin-top: 50px;
+}
+
+.my-name{
+    text-align: center;
+    font-size: 3em;
+}
+
+.my-description{
+    width: 800px;
+    text-align: center;
+    transform: translateX(230px);
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.videographer{
+    width: 100px;
+    display: flex;
+    transform: translateX(1050px);
+    transform: translateY(-90px);
+}
+
+.ig-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-links{
+    margin-top: 40px;
+}
+
+/*.test{
+    width: 500px;
+
+    padding: 18px;
+
+    background: burlywood;
+
+    border-radius: 7px;
+
+    box-shadow: 0 5px 15px rgba(45, 73, 125, 0.12);
+
+    margin-bottom: 25px;
+
+    transition: 0.2s ease;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-content: center;
+
+    transform: translateX(375px);
+}*/
+
+#contact{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.contact-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    > ul {
+        display: flex;
+        gap: 400px;
+
+        > li {
+          text-decoration: none;
+          font-size: 2.5rem;
+          text-transform: uppercase;
+          margin-left: 2.5px;
+
+          > a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
+}
+
+.project{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project video{
+    display: flex;
+    width: 100% !important;
+    max-width: 400px !important;
+    height: 500px !important;
+    border-radius: 10px !important;
+}
+
+
+
+
+
